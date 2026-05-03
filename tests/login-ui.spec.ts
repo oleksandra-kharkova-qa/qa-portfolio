@@ -8,3 +8,4 @@ test ('login form elements are visible', async ({page}) => {
     await expect(page.locator('[data-qa="login-button"]')).toBeVisible();
 
 });
+
